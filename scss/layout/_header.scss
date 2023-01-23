@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background-color:  red;
+    position: relative;
+    height: 64px;
+    display: block;
+}
+
+.burger-btn {
+    background-color: aqua;
+    display: block;
+}
+
+.burger-btn span,
+.burger-btn span::before,
+.burger-btn span::after {
+    display: block;
+    width: 32px;
+    height: 2px;
+    background-color: black;
+    margin-left: auto;
+    position: relative;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, transform 0.2s ease-in-out, background-color 0.001s ease-in-out;
+    z-index: 10;
+}
+.burger-btn span::before,
+.burger-btn span::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    z-index: 100;    
+}
+.burger-btn span::after {
+    bottom: -8px;
+}
+
+header nav {
+    // border: 1px solid blue;
+    background-color: beige;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 64px;
+    z-index: 1000;
+    &::before {
+        background-color: rgb(212, 212, 22);
+        position: absolute;
+        content: '';
+        top: 0px;
+        left: -24px;
+        display: block;
+        width: calc(100% + 48px); 
+        height: calc(100vh - 64px);
+        z-index: -1;
+    }
+    ul {
+        background-color: pink;
+    }
+}

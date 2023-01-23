@@ -15,7 +15,7 @@
 
 /*----------  layout
 ------------------------------------------------------------------------------*/
-// @import "layout/header"; 
+@import "layout/header"; 
 // @import "layout/footer";      
   
 /*----------  pages
@@ -27,6 +27,12 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 24px;
+    padding-right: 24px;
+}
 .sr-only {
     position: absolute;
     width: 1px;
@@ -37,3 +43,7 @@
     clip: rect(0,0,0,0,0);
     border: 0;
 }
+.hidden {
+    display: none;
+}
+
