@@ -9,7 +9,7 @@
 /*----------  components
 ------------------------------------------------------------------------------*/
 // @import "components/cover";
-// @import "components/buttons";
+@import "components/buttons";
 // @import "components/dropdown";
 // @import "components/navigation";
 
@@ -30,8 +30,9 @@
 body {
     width: 100%;
     min-height: 100vh;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: $neutral_lvl_1;
 }
 .sr-only {
     position: absolute;
@@ -45,5 +46,12 @@ body {
 }
 .hidden {
     display: none;
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
 }
 
