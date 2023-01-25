@@ -14,8 +14,14 @@ button:hover {
 .header-cta {
     display: none;   
 }
-.burger-btn {
+.burger-bg {
     // background-color: aqua;
+    width: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.burger-btn {
     display: block;
 }
 

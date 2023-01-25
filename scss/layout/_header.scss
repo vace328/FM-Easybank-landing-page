@@ -24,8 +24,8 @@ nav.main-menu {
     text-align: center;
     
 
-    // transform: translateY(100%);
-    // transition: transform 350ms ease-out;
+    transform: translateY(-100vh);
+    transition: transform 350ms ease-out;
     a {
         color: $primary_lvl_3;
         font-size: 20px;
@@ -52,10 +52,9 @@ nav.main-menu {
         z-index: -1;
     }
 }
-
-// nav.main-menu__mobile.o {
-//     transform: translateY(0%);
-// }
+nav.main-menu.o {
+    transform: translateY(0%);
+}
 
 // MEDIA QUERIES
 
