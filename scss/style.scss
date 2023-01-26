@@ -9,13 +9,13 @@
 /*----------  components
 ------------------------------------------------------------------------------*/
 // @import "components/cover";
-// @import "components/buttons";
+@import "components/buttons";
 // @import "components/dropdown";
 // @import "components/navigation";
 
 /*----------  layout
 ------------------------------------------------------------------------------*/
-// @import "layout/header"; 
+@import "layout/header"; 
 // @import "layout/footer";      
   
 /*----------  pages
@@ -27,6 +27,11 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $neutral_lvl_1;
+}
 .sr-only {
     position: absolute;
     width: 1px;
@@ -37,3 +42,21 @@
     clip: rect(0,0,0,0,0);
     border: 0;
 }
+.hidden {
+    display: none;
+}
+
+// Paddings
+header, section, footer {
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    header, section, footer {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+}
+

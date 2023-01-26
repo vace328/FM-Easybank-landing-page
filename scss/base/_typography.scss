@@ -1,0 +1,40 @@
+p, a, li, h2, span, div {
+    font-family: $ffamily_primary;
+    font-size: $fsize_primary;
+    color: $neutral_lvl_4;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    font-family: $ffamily_primary;
+    font-size: $fsize_primary;
+    color: $neutral_lvl_1;
+    font-weight: 700;
+}
+// li {
+//     color: $neutral_lvl_2;
+// }
+h2 {
+    color: $primary_lvl_3;
+    // font-weight: 700;    
+    // letter-spacing: -0.015em;   
+    // font-size: 36px;
+    // line-height: 37px;  
+    // text-align: center;  
+}
+// p {
+//     color: $neutral_lvl_2;    
+//     font-size: 16px;
+//     line-height: 26px;
+//     text-align: center;
+// }
+// @media only screen and (min-width: 900px) {
+//     h2 {
+//         font-size: 80px;
+//         line-height: 82px;
+//         text-align: left;
+//     }
+// }

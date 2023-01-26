@@ -1,0 +1,72 @@
+button {
+    height: 44px;
+    width: 163px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(49,211,92);
+    background: linear-gradient(180deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
+    cursor: pointer;
+}
+button:hover {
+    opacity: .7;
+}
+
+.header-cta {
+    display: none;   
+}
+.burger-bg {
+    // background-color: aqua;
+    width: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.burger-btn {
+    display: block;
+}
+
+.burger-btn span,
+.burger-btn span::before,
+.burger-btn span::after {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background-color: $neutral_lvl_4;
+    margin-left: auto;
+    position: relative;
+    transition: top 0.2s ease-in-out, bottom 0.2s ease-in-out, transform 0.2s ease-in-out, background-color 0.001s ease-in-out;
+    z-index: 10;
+}
+.burger-btn span::before,
+.burger-btn span::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    z-index: 100;    
+}
+.burger-btn span::after {
+    bottom: -5px;
+}
+.burger-btn span.x {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.burger-btn span.x::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.burger-btn span.x::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
+
+@media screen and (min-width: 500px) {
+    #burger-btn {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px) {
+    .header-cta {
+        display: block;
+    }
+}
