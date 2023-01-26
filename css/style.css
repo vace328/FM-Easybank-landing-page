@@ -55,6 +55,7 @@ table {
   border-spacing: 0;
 }
 
+
 p, a, li, h2, span, div {
   font-family: "Public Sans";
   font-size: 15px;
@@ -285,6 +286,7 @@ nav.main-menu.o {
     margin-right: 22px;
   }
 }
+
 /*----------  pages
 ------------------------------------------------------------------------------*/
 * {
@@ -307,7 +309,6 @@ body {
   clip: rect(0, 0, 0, 0, 0);
   border: 0;
 }
-
 .hidden {
   display: none;
 }
