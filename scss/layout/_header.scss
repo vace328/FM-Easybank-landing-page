@@ -1,11 +1,12 @@
 header {
     width: 100%;
-    // background-color:  red;
+    background-color:  $neutral_lvl_1;
     position: relative;
     height: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 // .main-menu {

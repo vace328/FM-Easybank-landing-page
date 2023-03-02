@@ -16,6 +16,7 @@
 /*----------  layout
 ------------------------------------------------------------------------------*/
 @import "layout/header"; 
+@import "layout/hero"; 
 // @import "layout/footer";      
   
 /*----------  pages
@@ -31,6 +32,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: $neutral_lvl_1;
+    overflow-x: hidden;
 }
 .sr-only {
     position: absolute;
@@ -48,15 +50,23 @@ body {
 
 // Paddings
 header, section, footer {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     width: 100%;
+}
+
+section.hero {
+    padding: 0;
 }
 
 @media screen and (min-width: 1000px) {
     header, section, footer {
         padding-left: 165px;
         padding-right: 165px;
+    }
+    header, section, footer {
+        padding-left: 156px;
+        padding-right: 156px;
     }
 }
 
