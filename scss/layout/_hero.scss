@@ -102,14 +102,17 @@
 }
 @media screen and (min-width: 1200px) {   
     .hero_img {
-        background-size: 155%; 
-        background-position: -1.5% 70%;
+        // background-size: 155%; 
+        background-size: 157%; 
+        // background-position: -1.5% 70%;
+        background-position: -1% 68.6%;
     }
     .hero_img img { 
         width: unset;   
         bottom: unset;    
         top: -122px;        
-        right: -17%;
+        // right: -17%;
+        right: -140px;
     }
     .hero_text {
         padding: 170px 10px 0px 158px;
