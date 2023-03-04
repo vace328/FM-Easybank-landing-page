@@ -18,5 +18,30 @@
 @media screen and (min-width: 1000px) {
     .cards-wrapper {
         flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card {
+        // width: 256px;
+        flex-basis: 256px;
+        text-align: left;
+        margin-right: 0;
+    }
+    .card-icon {
+        margin-bottom: 32px;
+    }
+    
+    .card h3 {
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: -0.022em;
+        margin-bottom: 22px;
+    }
+    .card > p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.015em;
+        // margin-bottom: 32px;
     }
 }
