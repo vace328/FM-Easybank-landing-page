@@ -13,15 +13,18 @@
     background-image: url(../../images/bg-intro-mobile.svg);
     background-repeat: no-repeat; 
     background-size: cover; 
-    // background-position: 70% 46%;
-    background-position: center;
+    background-size: 106%; 
+    background-position: 70% 46%;
+    background-position: 70% 53%;
+    // background-position: center;
     z-index: 2;
     // padding: 0 50px;
 }
 
 .hero_img img {
     position: absolute;
-    width: 92%;
+    // width: 92%;
+    width: 96%;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);

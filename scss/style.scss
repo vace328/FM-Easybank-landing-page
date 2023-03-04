@@ -10,6 +10,7 @@
 ------------------------------------------------------------------------------*/
 // @import "components/cover";
 @import "components/buttons";
+@import "components/cards";
 // @import "components/dropdown";
 // @import "components/navigation";
 
@@ -17,6 +18,7 @@
 ------------------------------------------------------------------------------*/
 @import "layout/header"; 
 @import "layout/hero"; 
+@import "layout/features"; 
 // @import "layout/footer";      
   
 /*----------  pages
@@ -54,7 +56,10 @@ header, section, footer {
     padding-right: 24px;
     width: 100%;
 }
-
+header {
+    padding-left: 16px;
+    padding-right: 16px;
+}
 section.hero {
     padding: 0;
 }

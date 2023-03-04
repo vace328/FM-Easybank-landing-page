@@ -1,0 +1,39 @@
+.features {
+    background-color: $neutral_lvl_3;
+    text-align: center;
+    padding-top: 64px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 32px;
+    h2 {
+        margin-bottom: 14px;
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+    }
+}
+.features > p {
+    margin-bottom: 56px;
+}
+
+@media screen and (min-width: 1000px) {
+    .features {
+        padding-left: 156px;
+        padding-right: 156px;
+        padding-top: 110px;
+        padding-bottom: 70px;
+        text-align: left;
+        h2 {
+            font-size: 40px;
+            margin-bottom: 28px;
+        }
+    }
+    .features > p {
+        margin-bottom: 70px;
+        font-size: 19px;
+        line-height: 29px;
+        letter-spacing: -0.041em;
+        width: 60%;
+    }
+}
+
