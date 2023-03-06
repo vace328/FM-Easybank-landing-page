@@ -1,0 +1,25 @@
+.articles {
+    background-color: $neutral_lvl_2;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 88px;
+    padding-bottom: 60px;
+    h2 {
+        margin-bottom: 30px;        
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .articles {
+        padding-left: 156px;
+        padding-right: 156px;
+        padding-top: 92px;
+        padding-bottom: 38px;
+        text-align: left;
+        h2 {
+            font-size: 40px;
+            margin-bottom: 54px;
+        }
+    }
+}

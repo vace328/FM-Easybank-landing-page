@@ -19,6 +19,7 @@
 @import "layout/header"; 
 @import "layout/hero"; 
 @import "layout/features"; 
+@import "layout/articles"; 
 // @import "layout/footer";      
   
 /*----------  pages
@@ -55,6 +56,11 @@ header, section, footer {
     padding-left: 24px;
     padding-right: 24px;
     width: 100%;
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+    }
 }
 header {
     padding-left: 16px;
