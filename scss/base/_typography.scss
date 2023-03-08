@@ -1,0 +1,52 @@
+p, a, li, h2, span, div {
+    font-family: $ffamily_primary;
+    font-size: $fsize_primary;
+    color: $neutral_lvl_4;
+    font-weight: 400;
+}
+
+p {
+    line-height: 25px;
+    letter-spacing: -0.015em;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    font-family: $ffamily_primary;
+    font-size: $fsize_primary;
+    font-size: 14px;
+    color: $neutral_lvl_1;
+    font-weight: 700;
+}
+
+h2 {
+    color: $primary_lvl_3;
+    // font-weight: 700;    
+    // letter-spacing: -0.015em;   
+    font-size: 32px;  
+}
+h3 {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: $primary_lvl_3;
+}
+// p {
+//     color: $neutral_lvl_2;    
+//     font-size: 16px;
+//     line-height: 26px;
+//     text-align: center;
+// }
+@media only screen and (min-width: 850px) {
+    // h2 {
+    //     font-size: 80px;
+    //     line-height: 82px;
+    //     text-align: left;
+    // }
+    p {
+        font-size: 19px;
+        line-height: 28px;
+        letter-spacing: -0.038em;
+    }
+}

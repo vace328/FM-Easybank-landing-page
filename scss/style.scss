@@ -9,14 +9,18 @@
 /*----------  components
 ------------------------------------------------------------------------------*/
 // @import "components/cover";
-// @import "components/buttons";
+@import "components/buttons";
+@import "components/cards";
 // @import "components/dropdown";
 // @import "components/navigation";
 
 /*----------  layout
 ------------------------------------------------------------------------------*/
-// @import "layout/header"; 
-// @import "layout/footer";      
+@import "layout/header"; 
+@import "layout/hero"; 
+@import "layout/features"; 
+@import "layout/articles"; 
+@import "layout/footer";      
   
 /*----------  pages
 ------------------------------------------------------------------------------*/
@@ -27,6 +31,12 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: $neutral_lvl_1;
+    overflow-x: hidden;
+}
 .sr-only {
     position: absolute;
     width: 1px;
@@ -37,3 +47,37 @@
     clip: rect(0,0,0,0,0);
     border: 0;
 }
+.hidden {
+    display: none;
+}
+
+// Paddings
+header, section, footer {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.02em;
+    }
+}
+header {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+section.hero {
+    padding: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    header, section, footer {
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+    header, section, footer {
+        padding-left: 156px;
+        padding-right: 156px;
+    }
+}
+
