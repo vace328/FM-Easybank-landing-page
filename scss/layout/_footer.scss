@@ -10,6 +10,10 @@ footer {
         display: block;
         margin-bottom: 19px;
     }
+    a:hover {
+        cursor: pointer;
+        color: #2DC992;
+    }
     .logo {
         margin-bottom: 31px;
     }
@@ -17,12 +21,23 @@ footer {
 
 .soc-icons {
     margin-bottom: 36px;
-    img {
+    a {
+        display: inline-block;
+    }
+    svg {
         width: 24px;
         height: 24px;
+        fill: $neutral_lvl_1;
     }
-    img:not(img:last-of-type) {
+    // svg:not(svg:last-of-type) {
+    //     margin-right: 12px;
+    // }
+    a:not(a:last-of-type) {
         margin-right: 12px;
+    }
+    svg:hover {
+        fill: #2DC992;
+        cursor: pointer;
     }
 }
 .footer-nav {
@@ -70,11 +85,11 @@ footer {
     }
     .soc-icons {
         margin-bottom: 0px;
-        img {
+        svg {
             width: 21px;
             height: 21px;
         }
-        img:not(img:last-of-type) {
+        a:not(a:last-of-type) {
             margin-right: 9px;
         }
     }
