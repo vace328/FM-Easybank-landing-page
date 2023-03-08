@@ -17,7 +17,6 @@
 
 
 .excerpt-card {
-    // border: 1px solid red;
     background-color: $neutral_lvl_1;
     border-radius: 5px;
     overflow: hidden;
@@ -56,16 +55,17 @@ h3.excerpt-card__title {
 }
 
 .excerpt-card:nth-of-type(1) .excerpt-card__img {
-    background-image: url(../../images/image-currency.jpg);        
+    // background-image: url(../../images/image-currency.jpg);        
+    background-image: url(../images/image-currency.jpg);        
 }
 .excerpt-card:nth-of-type(2) .excerpt-card__img {
-    background-image: url(../../images/image-restaurant.jpg);        
+    background-image: url(../images/image-restaurant.jpg);        
 }
 .excerpt-card:nth-of-type(3) .excerpt-card__img {
-    background-image: url(../../images/image-plane.jpg);        
+    background-image: url(../images/image-plane.jpg);        
 }
 .excerpt-card:nth-of-type(4) .excerpt-card__img {
-    background-image: url(../../images/image-confetti.jpg);        
+    background-image: url(../images/image-confetti.jpg);        
 }
 
 @media screen and (min-width: 1000px) {  
