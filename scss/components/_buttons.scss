@@ -6,10 +6,25 @@ button {
     background: rgb(49,211,92);
     background: linear-gradient(90deg, rgba(49,211,92,1) 0%, rgba(43,183,218,1) 100%);
     cursor: pointer;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        height: 44px;
+        width: 163px;
+        border-radius: 50px;
+        background: white;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
 }
-button:hover {
-    opacity: .7;
+button:hover::before {
+    opacity: 0.4;
 }
+// button:hover {
+//     opacity: .7;
+// }
 
 .header-cta {
     display: none;   
