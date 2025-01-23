@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [DEMO](https://vace328.github.io/FM-Easybank-landing-page/)
+- Live Site URL: [DEMO](https://bankingmadeeasy.netlify.app/)
 
 ## My process
 
