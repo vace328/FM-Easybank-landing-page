@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page solution
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). 
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
 ## Table of contents
 
@@ -22,7 +22,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/vace328/FM-Easybank-landing-page)
 - Live Site URL: [DEMO](https://vace328.github.io/FM-Easybank-landing-page/)
 
 ## My process
@@ -36,4 +35,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Ana Z.](https://www.frontendmentor.io/profile/vace328)
+Ana Zlatkovic
